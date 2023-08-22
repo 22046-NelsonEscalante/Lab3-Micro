@@ -27,7 +27,12 @@ return n * factorial(n - 1);
 // Driver code
 int main()
 {
-int num = 5;
+
+cout << "Ingrese el número para el cual desea calcular el factorial.";
+
+int num;
+cin >> num;
+
 cout << "Factorial of "
 << num << " is " << factorial(num) << endl;
 return 0;
