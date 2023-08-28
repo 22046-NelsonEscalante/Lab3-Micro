@@ -39,26 +39,12 @@ return factorial;
 // Driver code
 int main()
 {
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 int num;
 // Pide el input al usuario
 
-cout << "Ingrese un numero"; 
+cout << "Ingrese un numero: "; 
 cin >> num; 
-=======
->>>>>>> Stashed changes
 
-cout << "Ingrese el número para el cual desea calcular el factorial.";
-
-int num;
-cin >> num;
-
-<<<<<<< Updated upstream
-=======
->>>>>>> 2de4684926527d3fb153a58aa434694ccb1a2569
->>>>>>> Stashed changes
 cout << "Factorial of "
 << num << " is " << factorial(num) << endl;
 return 0;
